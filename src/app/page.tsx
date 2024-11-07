@@ -5,97 +5,93 @@ export default function Home() {
   return (
     <main>
       {/* SECTION 1 */}
-      <section className="flex h-screen flex-row bg-red-500">
-        <div className="flex w-1/2 flex-col justify-center bg-yellow-500 p-16">
-          <h1 className="text-4xl font-bold">Titolo principale</h1>
-          <p className="my-6">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
-            similique ducimus veniam, voluptatum ab rem, facere quisquam
-            voluptatem vel commodi aperiam non labore adipisci minima. Veritatis
-            tenetur quas minus et!
-          </p>
-          <div className="flex gap-10 bg-purple-500">
-            <Button variant="outline" className="">
-              Button
-            </Button>
+      <section className="flex flex-row bg-red-500">
+        <div className="flex w-2/3 flex-col justify-center bg-yellow-500">
+          <div className="h-2/3 border-4 bg-purple-500 p-10">
+            <h1 className="text-4xl font-bold">
+              Become a market - relevant blockchain developer with online
+              courses
+            </h1>
+          </div>
+          <div className="flex h-1/3 flex-row items-center justify-between border-4 bg-green-500 p-10">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae et
+              voluptatem quas ea facere quo sequi optio excepturi minus!
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
+              corrupti laboriosam reprehenderit!
+            </p>
+          </div>
+        </div>
+        <div className="flex w-1/3 flex-col items-center justify-center bg-blue-500">
+          <div className="h-2/3 w-full border-4">
+            <img alt="image" />
+          </div>
+          <div className="h-1/3 w-full border-4 p-10">
             <Button variant="outline" className="">
               Button
             </Button>
           </div>
-        </div>
-        <div className="flex w-1/2 items-center justify-center bg-blue-500">
-          <div className="h-60 w-40 bg-purple-500"></div>
         </div>
       </section>
 
       {/* SECTION 2 */}
-      <section className="flex h-screen items-center justify-between bg-green-500">
-        <div className="flex flex-row gap-5 bg-yellow-500 p-10">
-          <div className="rounded-xl bg-red-500 p-5">
-            <h3 className="pb-5 text-3xl font-medium">Titolo scheda</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
-              earum deserunt quas aliquam! Obcaecati beatae laborum eveniet,
-              dolorem sed sit eligendi laboriosam quis. Similique officia
-              provident animi suscipit reiciendis ratione!
-            </p>
-          </div>
-          <div className="rounded-xl bg-red-500 p-5">
-            <h3 className="pb-5 text-3xl font-medium">Titolo scheda</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
-              earum deserunt quas aliquam! Obcaecati beatae laborum eveniet,
-              dolorem sed sit eligendi laboriosam quis. Similique officia
-              provident animi suscipit reiciendis ratione!
-            </p>
-          </div>
-          <div className="rounded-xl bg-red-500 p-5">
-            <h3 className="pb-5 text-3xl font-medium">Titolo scheda</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
-              earum deserunt quas aliquam! Obcaecati beatae laborum eveniet,
-              dolorem sed sit eligendi laboriosam quis. Similique officia
-              provident animi suscipit reiciendis ratione!
-            </p>
-          </div>
+      <section className="flex items-center justify-center bg-red-500">
+        <div className="border-4 bg-purple-500">
+          <p className="w-96 text-center">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis rem
+            exercitationem eum dolor, quod enim odit modi velit repellendus
+            voluptatum et neque harum omnis perspiciatis, debitis, sunt ab
+            dolorum adipisci!
+          </p>
         </div>
       </section>
 
       {/* SECTION 3 */}
-      <section className="flex h-screen flex-row bg-blue-500">
-        <div className="flex w-1/2 flex-col justify-center p-16">
-          <h2>Titolo sezione</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
-            excepturi, consequatur aspernatur perspiciatis fugit commodi
-            repellendus culpa aliquam quasi ipsam perferendis sapiente obcaecati
-            vel optio est doloribus unde velit maiores!
+      <section className="flex items-center justify-center bg-yellow-500">
+        <div className="border-4 bg-green-500">
+          <p className="text-center">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis rem
+            exercitationem eum dolor, quod enim odit modi velit repellendus
+            voluptatum et neque harum omnis perspiciatis, debitis, sunt ab
+            dolorum adipisci!
           </p>
-          <Button variant="outline" className="">
-            Button
-          </Button>
-        </div>
-        <div className="flex w-1/2 flex-col items-center justify-center">
-          <div className="h-60 w-40 bg-purple-500"></div>
         </div>
       </section>
 
       {/* SECTION 4 */}
-      <section className="flex h-screen flex-row bg-yellow-500">
-        <div className="flex w-1/2 flex-col items-center justify-center">
-          <div className="h-60 w-40 bg-purple-500"></div>
+      <section className="flex h-96 flex-row items-center justify-between bg-yellow-500">
+        <div className="w-full border-4">
+          <img alt="image" />
         </div>
-        <div className="flex w-1/2 flex-col justify-center p-16">
-          <h2>Titolo sezione</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
-            excepturi, consequatur aspernatur perspiciatis fugit commodi
-            repellendus culpa aliquam quasi ipsam perferendis sapiente obcaecati
-            vel optio est doloribus unde velit maiores!
-          </p>
-          <Button variant="outline" className="">
-            Button
-          </Button>
+        <div className="w-full border-4">
+          <img alt="image" />
+        </div>
+        <div className="w-full border-4">
+          <img alt="image" />
+        </div>
+        <div className="w-full border-4">
+          <img alt="image" />
+        </div>
+      </section>
+
+      {/* SECTION 5 */}
+      <section className="flex flex-row items-center justify-between">
+        <div className="h-96 w-1/2 bg-blue-500">
+          <img alt="image" />
+        </div>
+        <div className="h-96 w-1/2 bg-yellow-400">
+          <div className="h-2/4 bg-green-500">
+            <h2>Titolo sezione</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+          <div className="h-1/4 bg-purple-500">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          </div>
+          <div className="h-1/4 bg-red-500">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          </div>
         </div>
       </section>
     </main>
