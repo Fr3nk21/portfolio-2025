@@ -8,17 +8,17 @@ export default function Home() {
       <section className="flex flex-row bg-red-500">
         <div className="flex w-2/3 flex-col justify-center bg-yellow-500">
           <div className="h-2/3 border-4 bg-purple-500 p-10">
-            <h1 className="text-4xl font-bold">
+            <h1 className="text-6xl font-bold">
               Become a market - relevant blockchain developer with online
               courses
             </h1>
           </div>
           <div className="flex h-1/3 flex-row items-center justify-between border-4 bg-green-500 p-10">
-            <p>
+            <p className="text-lg">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae et
               voluptatem quas ea facere quo sequi optio excepturi minus!
             </p>
-            <p>
+            <p className="text-lg">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
               corrupti laboriosam reprehenderit!
             </p>
@@ -28,7 +28,7 @@ export default function Home() {
           <div className="h-2/3 w-full border-4">
             <img alt="image" />
           </div>
-          <div className="h-1/3 w-full border-4 p-10">
+          <div className="flex h-1/3 w-full items-center justify-center border-4 p-10">
             <Button variant="outline" className="">
               Button
             </Button>
@@ -38,8 +38,8 @@ export default function Home() {
 
       {/* SECTION 2 */}
       <section className="flex items-center justify-center bg-red-500">
-        <div className="border-4 bg-purple-500">
-          <p className="w-96 text-center">
+        <div className="w-4/5 border-4 bg-purple-500">
+          <p className="text-center text-6xl">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis rem
             exercitationem eum dolor, quod enim odit modi velit repellendus
             voluptatum et neque harum omnis perspiciatis, debitis, sunt ab
