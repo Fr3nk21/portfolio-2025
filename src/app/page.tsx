@@ -64,18 +64,38 @@ export default function Home() {
       </section>
 
       {/* SECTION 4 */}
-      <section className="flex h-96 flex-row items-center justify-between bg-yellow-500">
-        <div className="w-full border-4">
-          <img src="./public/image-pl.webp" alt="image" />
+      <section className="flex h-96 flex-row items-center justify-between border-b-2 border-white bg-black">
+        <div className="flex h-full w-full items-center justify-center border-r-2 border-white">
+          <Image
+            src="/logo-pl.webp"
+            width={150}
+            height={150}
+            alt="Placeholder image"
+          />
         </div>
-        <div className="w-full border-4">
-          <img alt="image" />
+        <div className="flex h-full w-full items-center justify-center border-r-2 border-white">
+          <Image
+            src="/logo-pl.webp"
+            width={150}
+            height={150}
+            alt="Placeholder image"
+          />
         </div>
-        <div className="w-full border-4">
-          <img alt="image" />
+        <div className="flex h-full w-full items-center justify-center border-r-2 border-white">
+          <Image
+            src="/logo-pl.webp"
+            width={150}
+            height={150}
+            alt="Placeholder image"
+          />
         </div>
-        <div className="w-full border-4">
-          <img alt="image" />
+        <div className="flex h-full w-full items-center justify-center border-white">
+          <Image
+            src="/logo-pl.webp"
+            width={150}
+            height={150}
+            alt="Placeholder image"
+          />
         </div>
       </section>
 
