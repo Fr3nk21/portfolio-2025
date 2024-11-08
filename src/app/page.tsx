@@ -1,5 +1,6 @@
 // import Image from 'next/image';
 import { Button } from '@/components/ui/button';
+import Image from 'next/image';
 import ScrollingCarousel from '@/components/ui/carousel';
 
 export default function Home() {
@@ -26,8 +27,13 @@ export default function Home() {
           </div>
         </div>
         <div className="flex w-1/4 flex-col items-center justify-center bg-black">
-          <div className="h-2/3 w-full border-b-2 border-t-2 border-white">
-            <img alt="image" />
+          <div className="h-2/3 w-full overflow-hidden border-b-2 border-t-2 border-white">
+            <Image
+              src="/image-pl.webp"
+              width={500}
+              height={500}
+              alt="Placeholder image"
+            />
           </div>
           <div className="flex h-1/3 w-full items-center justify-center border-b-2 border-white p-10">
             <Button
@@ -60,7 +66,7 @@ export default function Home() {
       {/* SECTION 4 */}
       <section className="flex h-96 flex-row items-center justify-between bg-yellow-500">
         <div className="w-full border-4">
-          <img alt="image" />
+          <img src="./public/image-pl.webp" alt="image" />
         </div>
         <div className="w-full border-4">
           <img alt="image" />
