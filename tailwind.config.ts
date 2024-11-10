@@ -7,9 +7,10 @@ const config: Config = {
     './src/components/**/*.{js,ts,jsx,tsx,mdx}',
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
+  prefix: '',
   theme: {
     container: {
-      center: 'true',
+      center: true,
       padding: '2rem',
       screens: {
         '2xl': '1400px',
@@ -87,5 +88,5 @@ const config: Config = {
     },
   },
   plugins: [require('tailwindcss-animate')],
-};
+} satisfies Config;
 export default config;
