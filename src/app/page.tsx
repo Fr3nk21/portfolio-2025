@@ -7,8 +7,8 @@ export default function Home() {
   return (
     <main>
       {/* SECTION 1 */}
-      <section className="flex h-2/4 flex-row bg-red-500">
-        <div className="flex w-3/4 flex-col justify-center bg-yellow-500">
+      <section className="flex h-2/4 flex-row">
+        <div className="flex w-3/4 flex-col justify-center">
           <div className="flex h-2/3 items-center justify-between border-b-2 border-r-2 border-t-2 border-white bg-black p-10">
             <h1 className="text-4xl font-bold uppercase text-white">
               Become a market - relevant blockchain developer with online
@@ -38,7 +38,7 @@ export default function Home() {
           <div className="flex h-1/3 w-full items-center justify-center border-b-2 border-white p-10">
             <Button
               variant="outline"
-              className="w-96 rounded-full border-white text-xl font-bold text-white"
+              className="w-96 rounded-full border-white bg-black text-xl font-bold text-white hover:bg-white hover:text-black"
             >
               Button
             </Button>

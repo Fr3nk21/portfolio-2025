@@ -1,4 +1,5 @@
 import React from 'react';
+import { Button } from '@/components/ui/button';
 
 export default function Header() {
   return (
@@ -16,7 +17,12 @@ export default function Header() {
         </ul>
       </div>
       <div>
-        <span className="text-white">Log In Button</span>
+        <Button
+          variant="outline"
+          className="w-40 rounded-full border-white bg-black text-xl font-bold text-white hover:bg-white hover:text-black"
+        >
+          Log In
+        </Button>
       </div>
     </section>
   );
