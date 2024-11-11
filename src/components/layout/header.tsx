@@ -7,7 +7,7 @@ export default function Header() {
       <div>
         <span className="text-white">Logo Image</span>
       </div>
-      <div className="ml-auto">
+      <div className="ml-auto flex flex-row items-center justify-center">
         <ul className="mr-10 flex flex-row gap-10">
           <li className="text-white">Courses</li>
           <li className="text-white">About us</li>
