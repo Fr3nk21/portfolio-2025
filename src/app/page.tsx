@@ -2,6 +2,7 @@
 import { Button } from '@/components/ui/button';
 import Image from 'next/image';
 import ScrollingCarousel from '@/components/ui/carousel';
+import { ArrowRight } from 'lucide-react';
 
 export default function Home() {
   return (
@@ -40,7 +41,7 @@ export default function Home() {
               variant="outline"
               className="w-96 rounded-full border-white bg-black text-xl font-bold text-white hover:bg-white hover:text-black"
             >
-              Button
+              Button <ArrowRight />
             </Button>
           </div>
         </div>

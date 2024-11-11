@@ -1,5 +1,6 @@
 import React from 'react';
 import { Button } from '@/components/ui/button';
+import { ArrowRight } from 'lucide-react';
 
 export default function Header() {
   return (
@@ -22,6 +23,7 @@ export default function Header() {
           className="w-40 rounded-full border-white bg-black text-xl font-bold text-white hover:bg-white hover:text-black"
         >
           Log In
+          <ArrowRight />
         </Button>
       </div>
     </section>
