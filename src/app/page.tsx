@@ -6,7 +6,7 @@ import { ArrowRight } from 'lucide-react';
 
 export default function Home() {
   return (
-    <main className="relative w-full overflow-x-hidden bg-black">
+    <main className="no-scrollbar relative w-full overflow-x-hidden bg-black">
       <div className="mx-auto max-w-[1920px]">
         {/* SECTION 1 */}
         <section className="flex h-2/4 flex-row">

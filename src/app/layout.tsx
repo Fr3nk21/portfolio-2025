@@ -43,7 +43,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${drukBold.variable} ${manropeMedium.variable} antialiased`}
+        className={`${drukBold.variable} ${manropeMedium.variable} no-scrollbar antialiased`}
       >
         <Header />
         {children}
