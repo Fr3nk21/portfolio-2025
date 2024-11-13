@@ -95,7 +95,7 @@ export default function Home() {
         </section>
 
         {/* SECTION 4 */}
-        <section className="flex h-96 flex-row items-center justify-between border-b-2 border-white bg-black">
+        <section className="flex h-60 flex-row items-center justify-between border-b-2 border-white bg-black">
           <div className="flex h-full w-full items-center justify-center border-r-2 border-white">
             <Image
               src="/logo-pl.webp"
