@@ -1,8 +1,8 @@
-// import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import Image from 'next/image';
 import ScrollingCarousel from '@/components/ui/carousel';
 import { ArrowRight } from 'lucide-react';
+import ScrollSections from '@/components/layout/scrollSection';
 
 export default function Home() {
   return (
@@ -163,97 +163,89 @@ export default function Home() {
         </section>
 
         {/* SECTION 6 */}
-        <section className="flex flex-col items-center justify-center bg-black p-10">
+        <ScrollSections />
+        {/* <section className="flex flex-col items-center justify-center bg-black p-10">
           <h2 className="mb-10 text-4xl font-bold text-white">
-            Titolo sezione 6
+            Still, wondering why you should learn Web3 with us?
           </h2>
-          <div className="flex w-full flex-col">
-            <div className="flex flex-row items-center justify-center">
-              <div className="flex h-52 w-1/2 items-center justify-center bg-black p-10">
-                <Image
-                  src="/logo-pl.webp"
-                  width={150}
-                  height={150}
-                  alt="Placeholder image"
-                />
+          <div className="flex w-full flex-row">
+            <div></div>
+            <div className="flex flex-col items-center justify-center">
+              <div
+                id="section-01"
+                className="items-left flex h-52 w-1/2 flex-col justify-center bg-black p-10"
+              >
+                <h3 className="text-2xl font-bold text-white">
+                  Study when it is convenient for you.
+                </h3>
+                <p className="text-white">
+                  Our courses are available on an online platform. You can study
+                  at any convenient time.
+                </p>
               </div>
-              <div className="items-left flex h-52 w-1/2 flex-col justify-center bg-black p-10">
-                <h3 className="text-2xl font-bold text-white">Titolo blocco</h3>
-                <p className="text-white">Lorem ipsum dolor sit amet.</p>
+              <div
+                id="section-02"
+                className="items-left flex h-52 w-1/2 flex-col justify-center bg-black p-10"
+              >
+                <h3 className="text-2xl font-bold text-white">
+                  Learn from top developers, managers, and other specialists
+                  from the Blockchain niche.
+                </h3>
+                <p className="text-white">
+                  They invested their professional knowledge and experience in
+                  ICB course programs. Also, we cooperate with the most popular
+                  blockchains to create only relevant educational materials.
+                </p>
               </div>
-            </div>
-            <div className="flex flex-row items-center justify-center">
-              <div className="flex h-52 w-1/2 items-center justify-center bg-black p-10">
-                <Image
-                  src="/logo-pl.webp"
-                  width={150}
-                  height={150}
-                  alt="Placeholder image"
-                />
+              <div
+                id="section-03"
+                className="items-left flex h-52 w-1/2 flex-col justify-center bg-black p-10"
+              >
+                <h3 className="text-2xl font-bold text-white">
+                  Complete practical tasks and receive homework feedback from
+                  your mentor.
+                </h3>
+                <p className="text-white">
+                  You will join the discord community to get your mentor
+                  support, after starting the course.
+                </p>
               </div>
-              <div className="items-left flex h-52 w-1/2 flex-col justify-center bg-black p-10">
-                <h3 className="text-2xl font-bold text-white">Titolo blocco</h3>
-                <p className="text-white">Lorem ipsum dolor sit amet.</p>
+              <div
+                id="section-04"
+                className="items-left flex h-52 w-1/2 flex-col justify-center bg-black p-10"
+              >
+                <h3 className="text-2xl font-bold text-white">
+                  Focus on the most important information and avoid wasting
+                  time.
+                </h3>
+                <p className="text-white">
+                  The information of the lesson is selected and structured. You
+                  obtain only helpful materials.
+                </p>
               </div>
-            </div>
-            <div className="flex flex-row items-center justify-center">
-              <div className="flex h-52 w-1/2 items-center justify-center bg-black p-10">
-                <Image
-                  src="/logo-pl.webp"
-                  width={150}
-                  height={150}
-                  alt="Placeholder image"
-                />
+              <div
+                id="section-05"
+                className="items-left flex h-52 w-1/2 flex-col justify-center bg-black p-10"
+              >
+                <h3 className="text-2xl font-bold text-white">
+                  Get additional materials for an in-depth study of the topic.
+                </h3>
+                <p className="text-white">
+                  The course authors have prepared additional guides, useful
+                  links, etc..
+                </p>
               </div>
-              <div className="items-left flex h-52 w-1/2 flex-col justify-center bg-black p-10">
-                <h3 className="text-2xl font-bold text-white">Titolo blocco</h3>
-                <p className="text-white">Lorem ipsum dolor sit amet.</p>
-              </div>
-            </div>
-            <div className="flex flex-row items-center justify-center">
-              <div className="flex h-52 w-1/2 items-center justify-center bg-black p-10">
-                <Image
-                  src="/logo-pl.webp"
-                  width={150}
-                  height={150}
-                  alt="Placeholder image"
-                />
-              </div>
-              <div className="items-left flex h-52 w-1/2 flex-col justify-center bg-black p-10">
-                <h3 className="text-2xl font-bold text-white">Titolo blocco</h3>
-                <p className="text-white">Lorem ipsum dolor sit amet.</p>
-              </div>
-            </div>
-            <div className="flex flex-row items-center justify-center">
-              <div className="flex h-52 w-1/2 items-center justify-center bg-black p-10">
-                <Image
-                  src="/logo-pl.webp"
-                  width={150}
-                  height={150}
-                  alt="Placeholder image"
-                />
-              </div>
-              <div className="items-left flex h-52 w-1/2 flex-col justify-center bg-black p-10">
-                <h3 className="text-2xl font-bold text-white">Titolo blocco</h3>
-                <p className="text-white">Lorem ipsum dolor sit amet.</p>
-              </div>
-            </div>
-            <div className="flex flex-row items-center justify-center">
-              <div className="flex h-52 w-1/2 items-center justify-center bg-black p-10">
-                <Image
-                  src="/logo-pl.webp"
-                  width={150}
-                  height={150}
-                  alt="Placeholder image"
-                />
-              </div>
-              <div className="items-left flex h-52 w-1/2 flex-col justify-center bg-black p-10">
-                <h3 className="text-2xl font-bold text-white">Titolo blocco</h3>
-                <p className="text-white">Lorem ipsum dolor sit amet.</p>
+              <div
+                id="section-06"
+                className="items-left flex h-52 w-1/2 flex-col justify-center bg-black p-10"
+              >
+                <h3 className="text-2xl font-bold text-white">
+                  Opportunity to get a job after graduation.
+                </h3>
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
 
         {/* SECTION 7 */}
         <section className="flex flex-col items-center justify-center border-t-2 border-white bg-black pt-10">
