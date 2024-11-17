@@ -2,7 +2,7 @@
 
 import React, { useEffect, useState } from 'react';
 
-const ScrollSections = () => {
+const ScrollSection = () => {
   const [activeSection, setActiveSection] = useState(1);
 
   // Images for each section
@@ -148,4 +148,4 @@ const ScrollSections = () => {
   );
 };
 
-export default ScrollSections;
+export default ScrollSection;
