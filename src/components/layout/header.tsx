@@ -1,12 +1,38 @@
-import React from 'react';
+'use client';
+
+import React, { useState, useEffect } from 'react';
+import Image from 'next/image';
 import { Button } from '@/components/ui/button';
-import { ArrowRight } from 'lucide-react';
 
 export default function Header() {
+  const [isSticky, setIsSticky] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollThreshold = 0;
+      setIsSticky(window.scrollY > scrollThreshold);
+    };
+
+    // Add scroll event listener
+    window.addEventListener('scroll', handleScroll);
+
+    // Cleanup the event listener
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   return (
-    <section className="flex flex-row bg-black p-8">
+    <section
+      className={`fixed left-0 right-0 top-0 z-50 flex flex-row items-center justify-between p-8 transition-all duration-300 ease-in-out ${isSticky ? 'bg-yellow-400' : 'bg-black'}`}
+    >
       <div>
-        <span className="text-white">Logo Image</span>
+        <Image
+          src="/main-logo.svg"
+          width={100}
+          height={100}
+          alt="Platform's logo"
+        />
       </div>
       <div className="ml-auto flex flex-row items-center justify-center">
         <ul className="mr-10 flex flex-row gap-10">
@@ -20,10 +46,15 @@ export default function Header() {
       <div>
         <Button
           variant="outline"
-          className="w-40 rounded-full border-white bg-black text-xl font-bold text-white hover:bg-white hover:text-black"
+          className="w-32 rounded-full border-white bg-black text-xl font-bold text-white hover:bg-white hover:text-black"
         >
           Log In
-          <ArrowRight />
+          <Image
+            src="/button-arrow.svg"
+            width={20}
+            height={20}
+            alt="Placeholder image"
+          />
         </Button>
       </div>
     </section>
