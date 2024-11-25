@@ -2,8 +2,7 @@
 import React from 'react';
 
 const ScrollingCarousel = () => {
-  const text =
-    'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit.';
+  const text = 'Solana Foundation Educational Partner';
   const sections = [text, text, text, text];
 
   return (
