@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button';
 
 const HeroSection = () => {
   return (
-    <section className="flex h-2/4 flex-row">
+    <section className="mt-24 flex h-2/4 flex-row">
       <div className="flex w-3/4 flex-col justify-center">
         <div className="flex h-2/3 items-center justify-between border-b-2 border-r-2 border-t-2 border-white bg-black px-20 py-10">
           <h1 className="flex max-w-4xl flex-col text-6xl font-black uppercase leading-tight text-white">

@@ -24,7 +24,7 @@ export default function Header() {
 
   return (
     <section
-      className={`fixed left-0 right-0 top-0 z-50 flex flex-row items-center justify-between p-8 transition-all duration-300 ease-in-out ${isSticky ? 'bg-yellow-400' : 'bg-black'}`}
+      className={`fixed left-0 right-0 top-0 z-50 flex flex-row items-center justify-between border-b-2 border-white p-8 transition-all duration-300 ease-in-out ${isSticky ? 'bg-yellow-400' : 'bg-black'}`}
     >
       <div>
         <Image
